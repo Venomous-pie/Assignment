@@ -1,0 +1,67 @@
+
+
+.parent {
+    position: relative;
+}
+
+.child {
+    background-color: #AEC6CF;
+    padding-top: 30px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 19px; 
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    position: absolute;
+    top: .3in;
+    left: 5in;
+}
+
+th, td {
+    padding: 0px;
+}
+
+.buttons input[type="button"] {
+    width: 60px;
+    height: 60px;
+    border-radius: 15%;
+    padding: 0;
+}
+
+.buttons input[type="button"]:hover {
+    background-color: rgba(0, 0, 0, 0.067);
+}
+
+.textpot {
+    text-align: right;
+    height: 50px;
+    width: 96%;
+    border: 3px solid black;
+    border-radius: 5%;
+}
+
+.textpot input[type="text"] {
+    font-size: 98px;
+}
+
+.textpot::placeholder{
+    position: absolute;
+    top: 10%;
+    left: 213px;
+    transform: translateY();
+    bottom: 10px;
+    font-size: 40px;
+}
+
+.mOperands {
+    background-color: #FDFD96;
+}
+
+.nums {
+    background-color: rgb(255, 255, 255);
+}
+
+.oper {
+    background-color: #F8C8DC;
+}
+
