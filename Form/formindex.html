@@ -3,33 +3,120 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formstyle.css">
     <title>Form</title>
 </head>
 <body>
     <div class="parent">
         <div class="child">
             <table class="form">
-                <th class="head" colspan="8">School Form</th>
+                <th class="head" colspan="8"><h2>School Form</h2></th>
                     <tr>
-                        <td><b>1. Child's details</b></td>
+                        <td colspan="8"><b>1. Child's details</b></td>
                     </tr>
 
                     <tr>
-                        <td>Child's First name(s)</br><input type="text"></td>
-                        <td>Child's Surname</br><input type="text"></td>
+                        <td colspan="1">Child's First name(s)</br><input type="text" size="50" autofocus ></td>
+                        <td colspan="1">Child's Surname</br><input type="text" size="50" ></td>
                     </tr>
             
                     <tr>
-                        <td>Child's Date of Birth</br><input type="date" name="" id=""></td>
-                        <td>Male</br><input type="radio" name="male" id=""></td>
-                        <td>Female</br><input type="radio" name="female" id=""></td>
+                        <td>Child's Date of Birth</br><input type="date"></td>
+                        <td>
+                            <form>
+                                <label for="male">Male</label>
+                                <input type="radio" name="male" id="male">
+                                <label for="female">Female</label>
+                                <input type="radio" name="female" id="female">
+                            </form>
+                        </td>
                     </tr>
 
                     <tr>
-                        <td>Home adress<input type="text" name="" id=""></td>
-                        
+                        <td>Home address</br><input type="text" size="50" ></td>
+                        <td>Postcode</br><input type="text" size="50" ></td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">Date of moving to this address<input type="date"></td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="8"><b>2. Parents/Carers details (please tick)</b></td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2" class="mr">Mr<input type="checkbox" name="" id="">&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;Mrs<input type="checkbox" name="" id="">&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;Miss<input type="checkbox" name="" id="">&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;Ms<input type="checkbox" name="" id="">&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;Other<input type="checkbox" name="" id=""></td>
+                    </tr>
+                
+                    <tr>
+                        <td>Firstname</br><input type="text" size="50"></td>
+                        <td>Surname</br><input type="text" size="50"></td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="8">Relationship to child (please tick) </br>Mother<input type="checkbox" name="" id="" class=""> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;Father<input type="checkbox" name="" id="">&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;Step Parent<input type="checkbox" name="" id="">&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;Foster Parent<input type="checkbox" name="" id="">&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;Other<input type="checkbox" name="" id=""></td>
+                    </tr>
+
+                    <tr>
+                    </tr>
+
+                    <tr>
+                        <td>Day Tel No: </br><input type="tel" size="50"></td>
+                        <td>Evening Tel No: </br><input type="tel" size="50"></td>
+                    </tr>
+
+                    <tr>
+                        <td>Mobile Tel No: </br><input type="tel" size="50"></td>
+                        <td>Email Address: </br><input type="tel" size="50"></td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="8"><b>3. Further Information</b></td>
+                    </tr>
+
+                    <tr>
+                        <td>If you have any other older children attending the school, *pleaase provide details below.</td>
+                    </tr>
+
+                    <tr>
+                        <td>Sibling's full name</br><input type="text" size="50"></td>
+                        <td>Sibling's date of birth</br><input type="text" size="50"></td>
+                    </tr>
+
+                    <tr>
+                        <td>Sibling's full name</br><input type="text" size="50"></td>
+                        <td>Sibling's date of birth</br><input type="text" size="50"></td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2"><b>NURSERY PROVISION IS 5 MORNING OR 5 AFTERNOON SESSIONS, AS SHOWN BELOW.</br>*Please tick which sessions you prefer.</b></td>
+                    </tr>
+                  
+                    <tr>
+                        <td>The morning sessions run from: </td>
+                        <td>8.45 a.m. to 11.45 a.m. <input type="checkbox" name="" id=""></td>
+                    </tr>
+
+                    <tr>
+                        <td>The afternoon sessions run from :</td>
+                        <td>12.15 p.m. to 3.15 p.m. <input type="checkbox" name="" id=""></td>
+                    </tr>
+
+                    <tr>
+                        <td>Either:</td>
+                        <td><input type="checkbox" name="" id=""></td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">*Where possible parental preference wil be taken into account but no guarantee can be given as the allocation of places depends on whether a vacancy exists in the morning or the afternoon. It would be helpful, therefore, you could also tick the "Either session" if you do not have a strong preference.</td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2"><b>Please turn over to complete the rest of this application form.</b></td>
                     </tr>
             </table>
+            
         </div>
     </div>
 </body>
